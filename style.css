@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   height: 300px;
   padding: 20px;
-  width: 400px;
+  width: 350px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 135, 100, 0.37);
   backdrop-filter: blur(19.5px);
@@ -34,9 +34,10 @@ body {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 55px);
+  grid-template-columns: repeat(3, 60px);
   grid-column-gap: 100px;
   gap: 10px;
+  margin-left: 15px;
 }
 
 .info {
