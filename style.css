@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/201/670/desktop-wallpaper-1080x2400-japanese-castle-pixel-art-1080x2400-resolution-artist-and-backgrounds-winter-pixel-art.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 300px;
+  padding: 20px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 135, 100, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 55px);
+  grid-column-gap: 100px;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #ddd;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.cell:hover {
+  background-color: #ccc;
+}
+
+.resetButton {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 16px;
+  outline: 0;
+  text-align: center;
+  width: 200px;
+  background: rgba(67, 229, 140, 0.267);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.resetButton:active {
+  background-color: rgba(67, 229, 140, 0.318);
+}
